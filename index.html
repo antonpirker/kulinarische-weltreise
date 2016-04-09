@@ -74,15 +74,20 @@
                 },
 
                 tooltip: {
-                    backgroundColor: 'none',
-                    borderWidth: 0,
-                    shadow: false,
+                    backgroundColor: '#fff',
+                    borderWidth: 1,
+                    shadow: true,
                     useHTML: true,
                     padding: 0,
                     pointFormat: '<span class="f32"><span class="flag {point.flag}"></span></span>' +
                         ' {point.name}</br>{point.description}',
                     positioner: function () {
-                        return { x: 0, y: 250 };
+                        pos = {
+                            x: 50,
+                            y: $('#container').height()-130
+                        };
+
+                        return pos;
                     }
                 },
 
