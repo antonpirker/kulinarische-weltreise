@@ -19,7 +19,7 @@ var country_data = [
     },
     {
         code: "AS",
-        value: 3,
+        value: 1,
         name: "American Samoa",
         description: ''
     },

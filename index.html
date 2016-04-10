@@ -6,12 +6,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://code.highcharts.com/maps/highmaps.js"></script>
     <script src="https://code.highcharts.com/maps/modules/data.js"></script>
-   <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+    <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
 
     <!-- Flag sprites service provided by Martijn Lafeber, https://github.com/lafeber/world-flags-sprite/blob/master/LICENSE -->
     <link rel="stylesheet" type="text/css" href="https://cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css" />
 
     <style>
+        * {
+            font-family: sans-serif;
+        }
         @media (min-width: 1025px) {
             #container {
                 height: 60vh;
@@ -24,6 +27,18 @@
                 width: 100%;
                 margin: 0 auto;
             }
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+
         }
 
         .highcharts-tooltip>span {
@@ -41,12 +56,24 @@
         .f32 .flag {
             vertical-align: middle !important;
         }
+
+        ul {
+            padding: 0;
+        }
+
+        ul li {
+            list-style: none;
+            margin-bottom: 2em;
+        }
     </style>
 </head>
 
 
 <body>
+    <h1>Kulinarische Weltreise</h1>
+    <h2>In Wien die Welt auf kulinarischem Weg entdecken.</h2>
     <div id="container"></div>
+    <ul id="list"></ul>
 
     <script src="country_data.js"></script>
     <script>
@@ -54,14 +81,18 @@
             // Add lower case codes to the data set for inclusion in the tooltip.pointFormat
             $.each(country_data, function () {
                 this.flag = this.code.replace('UK', 'GB').toLowerCase();
+
+                // print all the visited places.
+                if(this.value > 1) {
+                    $('#list').append('<li><h3><span class="f32"><span class="flag {flag}"></span></span>{name}</h3>{description}</li>'.replace('{name}', this.name).replace('{description}', this.description).replace('{flag}', this.flag));
+                }
             });
 
             // Initiate the chart
             $('#container').highcharts('Map', {
-                title: {
-                    text: 'Kulinarische Weltreise'
+                title:{
+                    text:''
                 },
-
                 legend: {
                     enabled: false
                 },
