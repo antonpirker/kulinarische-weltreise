@@ -909,7 +909,7 @@ var country_data = [
         code: "PH",
         value: 100,
         name: "Philippines",
-        description: '<b>Hotel am Brillantengrund</b><br/>, Bandgasse 4, 1070 Wien<br/><a href="http://www.brillantengrund.com/" target="_blank">http://www.brillantengrund.com/</a>'
+        description: '<b>Hotel am Brillantengrund</b><br/>Bandgasse 4, 1070 Wien<br/><a href="http://www.brillantengrund.com/" target="_blank">http://www.brillantengrund.com/</a>'
     },
     {
         code: "PL",
