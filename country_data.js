@@ -751,9 +751,9 @@ var country_data = [
     },
     {
         code: "MX",
-        value: 1,
+        value: 100,
         name: "Mexico",
-        description: ''
+        description: '<b>Los Mexikas</b><br/>Lange Gasse 12, 1080 Wien<br/><a href="http://www.losmexikas.at/" target="_blank">http://www.losmexikas.at/</a>'
     },
     {
         code: "FM",
