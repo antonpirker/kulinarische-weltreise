@@ -67,9 +67,9 @@ var country_data = [
     },
     {
         code: "AT",
-        value: 1,
+        value: 100,
         name: "Austria",
-        description: ''
+        description: '<b>Gastwirtschaft Wolfsberger</b><br/>Lienfeldergasse 35,  A-1160 Wien<br/><a href="http://www.gastwirtschaftwolfsberger.at/" target="_blank">http://www.gastwirtschaftwolfsberger.at/</a>'
     },
     {
         code: "AZ",
