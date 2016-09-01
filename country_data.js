@@ -811,9 +811,9 @@ var country_data = [
     },
     {
         code: "NP",
-        value: 1,
+        value: 100,
         name: "Nepal",
-        description: ''
+        description: '<b>Yak und Yeti</b><br/>Hofmühlgasse 21, 1060 Wien<br/><a href="http://www.yakundyeti.at/" target="_blank">http://www.yakundyeti.at/</a>'
     },
     {
         code: "NL",
@@ -901,9 +901,9 @@ var country_data = [
     },
     {
         code: "PE",
-        value: 1,
+        value: 100,
         name: "Peru",
-        description: ''
+        description: '<b>lima 56</b><br/>Favoritenstraße 56, 1040 Wien<br/><a href="http://www.lima56.at/" target="_blank">http://www.lima56.at/</a>'
     },
     {
         code: "PH",
@@ -1243,9 +1243,9 @@ var country_data = [
     },
     {
         code: "VN",
-        value: 1,
+        value: 100,
         name: "Vietnam",
-        description: ''
+        description: '<b>le Pho</b><br/>Gumpendorferstraße 97, 1060 Wien<br/><a href="http://www.le-pho.at/" target="_blank">http://www.le-pho.at/</a>'
     },
     {
         code: "VI",
