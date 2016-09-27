@@ -157,9 +157,10 @@ var country_data = [
     },
     {
         code: "BR",
-        value: 1,
+        value: 100,
         name: "Brazil",
         description: ''
+        description: '<b>Brasilienhaus</b><br/>Wilheminenstraße 43, A-1160 Wien<br/><a href="http://brasilienhaus.at/" target="_blank">http://brasilienhaus.at/</a>'
     },
     {
         code: "BN",
