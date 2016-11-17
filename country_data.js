@@ -435,7 +435,7 @@ var country_data = [
         code: "GR",
         value: 100,
         name: "Greece",
-        description: '<b>Orpheus</b><br/>Spiegelgasse 10, A-1010 Wien<br/><a href="http://neu.orpheas.at/" target="_blank">http://neu.orpheas.at/</a>
+        description: 'Orpheus</b><br/>Spiegelgasse 10, A-1010 Wien<br/><a href="http://neu.orpheas.at/" target="_blank">http://neu.orpheas.at/</a>'
     },
     {
         code: "GL",
