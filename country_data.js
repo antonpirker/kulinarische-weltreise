@@ -433,9 +433,9 @@ var country_data = [
     },
     {
         code: "GR",
-        value: 1,
+        value: 100,
         name: "Greece",
-        description: ''
+        description: '<b>Orpheus</b><br/>Spiegelgasse 10, A-1010 Wien<br/><a href="http://neu.orpheas.at/" target="_blank">http://neu.orpheas.at/</a>
     },
     {
         code: "GL",
@@ -1129,9 +1129,9 @@ var country_data = [
     },
     {
         code: "TH",
-        value: 1,
+        value: 100,
         name: "Thailand",
-        description: ''
+        description: '<b>Thai Isaan Kitchen</b><br/>Gumpendorfer Straße 91, A-1060 Wien<br/><a href="http://www.thai-isaan.at/" target="_blank">http://www.thai-isaan.at/</a>'
     },
     {
         code: "TP",
