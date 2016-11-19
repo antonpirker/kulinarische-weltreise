@@ -1105,9 +1105,9 @@ var country_data = [
     },
     {
         code: "CH",
-        value: 1,
+        value: 100,
         name: "Switzerland",
-        description: ''
+        description: '<b>Gubler & Gubler</b><br/>Strozzigasse 42, A-1080 Wien<br/><a href="http://www.gublergubler.at/" target="_blank">http://www.gublergubler.at/</a>'
     },
     {
         code: "SY",
